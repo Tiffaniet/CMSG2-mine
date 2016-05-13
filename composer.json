@@ -1,12 +1,16 @@
 {
-  "name": "vendor_name/package_name",
-  "description": "description_text",
-  "minimum-stability": "stable",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "author's name",
-      "email": "email@example.com"
+    "name": "tiffanietrain/cmsg2",
+    "authors": [
+        {
+            "name": "tiffaniet",
+            "email": "train-tiffanie@hotmail.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "Controller/",
+            "Model\\": "Model/"
+        }
     }
-  ]
 }
