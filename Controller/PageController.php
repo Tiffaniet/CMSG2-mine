@@ -1,7 +1,7 @@
 <?php
 namespace Controller;
 
-use Model\Pagerepository;
+use Model\PageRepository;
 
 
 class PageController
@@ -43,10 +43,10 @@ class PageController
         }
         $page = $this->repository->getSlug($slug);
         if(!$page){
-            include "View/404.php";
+            include "Views/404.php";
             return;
         }
-        include "View/page.php";
+        include "Views/page.php";
     }
 
 }
